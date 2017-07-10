@@ -1,0 +1,21 @@
+<link rel="import" href="../../../bower_components/polymer/polymer-element.html">
+
+<dom-module id="x-foo">
+  <template>
+    <style>
+       :host {
+        border-image: url("../assets/texture.jpeg") 1 0 0 0;
+      }
+    </style>
+    <label>x-foo element</label>
+  </template>
+
+  <script>
+    class XFoo extends Polymer.Element {
+      static get is() {
+        return 'x-foo';
+      }
+    }
+    customElements.define(XFoo.is, XFoo);
+  </script>
+</dom-module>

@@ -1,0 +1,20 @@
+{
+  "name": "polymer-bundler-test",
+  "authors": [
+    "Jai Chandra <jai.chandra@nielsen.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.1"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
